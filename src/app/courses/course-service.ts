@@ -30,7 +30,7 @@ var COURSES: Course[] = [
         description: 'Neste curso, os alunos irão obter um conhecimento aprofundado sobre os recursos disponíveis no módulo de Forms.',
         duration: 80,
         code: 'DWQ-3412',
-        rating: 3.5,
+        rating: 3.6,
         price: 24.99,
         imageUrl: '/assets/images/forms.png',
     },
