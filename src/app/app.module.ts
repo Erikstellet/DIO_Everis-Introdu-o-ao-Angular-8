@@ -6,16 +6,14 @@ import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { StarComponent } from './star/star.component';
-import { NavBarComponent } from './nav-bar/nave-bar-component';
 import { Error404Component } from './404/error-404.component';
 import { CourseModule } from './courses/course.module';
+import { CoreModule } from './core/component/core.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
     Error404Component,
   ],
   imports: [
@@ -23,6 +21,7 @@ import { CourseModule } from './courses/course.module';
     FormsModule,
     HttpClientModule,
     CourseModule,
+    CoreModule,
     RouterModule.forRoot
     ([
       {
